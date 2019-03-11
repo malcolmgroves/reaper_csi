@@ -1,0 +1,24 @@
+RoundButton1    Reaper  40174    // Create Green Section
+RoundButton2    Reaper  40174    // Create Yellow Section
+RoundButton3    Reaper  40174    // Create Amber Section
+RoundButton4    Reaper  40174    // Create Red Section
+
+RoundButtonA    Reaper  41801   // Prev Region
+RoundButtonB    Reaper  41802   // Next Region
+
+SquareButton1A  Reaper  41761   // Goto Region 1
+SquareButton2A  Reaper  41762   // Goto Region 2
+SquareButton3A  Reaper  41763   // Goto Region 3
+SquareButton4A  Reaper  41764   // Goto Region 4
+SquareButton5A  Reaper  41765   // Goto Region 5
+SquareButton6A  Reaper  41766   // Goto Region 6
+SquareButton7A  Reaper  41767   // Goto Region 7
+SquareButton8A  Reaper  41768   // Goto Region 8
+SquareButton1B  Reaper  41769   // Goto Region 9
+SquareButton2B  Reaper  41770   // Goto Region 10
+SquareButton3B  Reaper  41771   // Goto Region 11
+SquareButton4B  Reaper  41772   // Goto Region 12
+SquareButton5B  Reaper  41773   // Goto Region 13
+SquareButton6B  Reaper  41774   // Goto Region 14
+SquareButton7B  Reaper  41775   // Goto Region 15
+SquareButton8B  Reaper  41776   // Goto Region 16

@@ -1,0 +1,90 @@
+/ listed by row
+
+RoundButton1    PressFB         b0 68 7f    b0 68 3c  
+RoundButton2    PressFB         b0 69 7f    b0 69 3e  
+RoundButton3    PressFB         b0 6a 7f    b0 6a 3f  
+RoundButton4    PressFB         b0 6b 7f    b0 6b 0f  
+RoundButton5    PressFB         b0 6c 7f    b0 6c 00   
+RoundButton6    PressFB         b0 6d 7f    b0 6d 00  
+RoundButton7    PressFB         b0 6e 7f    b0 6e 00   
+RoundButton8    PressFB         b0 6f 7f    b0 6f 00  
+
+SquareButton1A  PressFB         90 00 7f    90 00 3c  
+SquareButton2A  PressFB         90 01 7f    90 01 3e   
+SquareButton3A  PressFB         90 02 7f    90 02 3f   
+SquareButton4A  PressFB         90 03 7f    90 03 0f   
+SquareButton5A  PressFB         90 04 7f    90 04 3c   
+SquareButton6A  PressFB         90 05 7f    90 05 3e  
+SquareButton7A  PressFB         90 06 7f    90 06 3f  
+SquareButton8A  PressFB         90 07 7f    90 07 0f  
+RoundButtonA    PressFB         90 08 7f    90 08 00         
+
+SquareButton1B  PressFB         90 10 7f    90 10 3c  
+SquareButton2B  PressFB         90 11 7f    90 11 3e  
+SquareButton3B  PressFB         90 12 7f    90 12 3f  
+SquareButton4B  PressFB         90 13 7f    90 13 0f  
+SquareButton5B  PressFB         90 14 7f    90 14 3c  
+SquareButton6B  PressFB         90 15 7f    90 15 3e  
+SquareButton7B  PressFB         90 16 7f    90 16 3f  
+SquareButton8B  PressFB         90 17 7f    90 17 0f  
+RoundButtonB    PressFB         90 18 7f    90 18 00         
+
+SquareButton1C  PressReleaseFB         90 20 7f    90 20 00 
+SquareButton2C  PressReleaseFB         90 21 7f    90 21 00 
+SquareButton3C  PressReleaseFB         90 22 7f    90 22 00 
+SquareButton4C  PressReleaseFB         90 23 7f    90 23 00 
+SquareButton5C  PressReleaseFB         90 24 7f    90 24 00 
+SquareButton6C  PressReleaseFB         90 25 7f    90 25 00 
+SquareButton7C  PressReleaseFB         90 26 7f    90 26 00 
+SquareButton8C  PressReleaseFB         90 27 7f    90 27 00 
+RoundButtonC    PressReleaseFB         90 28 7f    90 28 00
+
+SquareButton1D  PressReleaseFB         90 30 7f    90 30 00 
+SquareButton2D  PressReleaseFB         90 31 7f    90 31 00 
+SquareButton3D  PressReleaseFB         90 32 7f    90 32 00 
+SquareButton4D  PressReleaseFB         90 33 7f    90 33 00 
+SquareButton5D  PressReleaseFB         90 34 7f    90 34 00 
+SquareButton6D  PressReleaseFB         90 35 7f    90 35 00 
+SquareButton7D  PressReleaseFB         90 36 7f    90 36 00 
+SquareButton8D  PressReleaseFB         90 37 7f    90 37 00 
+RoundButtonD    PressReleaseFB         90 38 7f    90 38 00
+
+SquareButton1E  PressReleaseFB         90 40 7f    90 40 00 
+SquareButton2E  PressReleaseFB         90 41 7f    90 41 00 
+SquareButton3E  PressReleaseFB         90 42 7f    90 42 00 
+SquareButton4E  PressReleaseFB         90 43 7f    90 43 00 
+SquareButton5E  PressReleaseFB         90 44 7f    90 44 00 
+SquareButton6E  PressReleaseFB         90 45 7f    90 45 00 
+SquareButton7E  PressReleaseFB         90 46 7f    90 46 00 
+SquareButton8E  PressReleaseFB         90 47 7f    90 47 00 
+RoundButtonE    PressReleaseFB         90 48 7f    90 48 00
+
+SquareButton1F  PressReleaseFB         90 50 7f    90 50 00 
+SquareButton2F  PressReleaseFB         90 51 7f    90 51 00 
+SquareButton3F  PressReleaseFB         90 52 7f    90 52 00 
+SquareButton4F  PressReleaseFB         90 53 7f    90 53 00 
+SquareButton5F  PressReleaseFB         90 54 7f    90 54 00 
+SquareButton6F  PressReleaseFB         90 55 7f    90 55 00 
+SquareButton7F  PressReleaseFB         90 56 7f    90 56 00 
+SquareButton8F  PressReleaseFB         90 57 7f    90 57 00 
+RoundButtonF    PressReleaseFB         90 58 7f    90 58 00
+
+SquareButton1G  PressReleaseFB         90 60 7f    90 60 00 
+SquareButton2G  PressReleaseFB         90 61 7f    90 61 00 
+SquareButton3G  PressReleaseFB         90 62 7f    90 62 00 
+SquareButton4G  PressReleaseFB         90 63 7f    90 63 00 
+SquareButton5G  PressReleaseFB         90 64 7f    90 64 00 
+SquareButton6G  PressReleaseFB         90 65 7f    90 65 00 
+SquareButton7G  PressReleaseFB         90 66 7f    90 66 00 
+SquareButton8G  PressReleaseFB         90 67 7f    90 67 00 
+RoundButtonG    PressReleaseFB         90 68 7f    90 68 00
+
+SquareButton1H  PressReleaseFB         90 70 7f    90 70 00 
+SquareButton2H  PressReleaseFB         90 71 7f    90 71 00 
+SquareButton3H  PressReleaseFB         90 72 7f    90 72 00 
+SquareButton4H  PressReleaseFB         90 73 7f    90 73 00 
+SquareButton5H  PressReleaseFB         90 74 7f    90 74 00 
+SquareButton6H  PressReleaseFB         90 75 7f    90 75 00 
+SquareButton7H  PressReleaseFB         90 76 7f    90 76 00 
+SquareButton8H  PressReleaseFB         90 77 7f    90 77 00 
+RoundButtonH    PressReleaseFB         90 78 7f    90 78 00

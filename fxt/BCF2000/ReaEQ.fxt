@@ -1,0 +1,18 @@
+VST: ReaEQ (Cockos)
+RotaryG41 "Freq-Low Shelf"
+Fader1 "Gain-Low Shelf"
+RotaryG42 "Freq-Band 2"
+Fader2 "Gain-Band 2"
+RotaryG43 "Freq-Band 3"
+Fader3 "Gain-Band 3"
+RotaryG44 "Freq-Band 3"
+Fader4 "Gain-Band 4"
+RotaryG45 "Freq-Band 4"
+Fader5 "Gain-Band 5"
+RotaryG46 "Freq-Band 5"
+Fader6 "Gain-Band 5"
+RotaryG47 "Freq-Band 6"
+Fader7 "Gain-Band 6"
+RotaryG48 "Freq-High Shelf"
+Fader8 "Gain-High Shelf"
+UpperButton1 Bypass

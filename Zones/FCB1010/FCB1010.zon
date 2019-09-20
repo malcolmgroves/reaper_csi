@@ -1,0 +1,10 @@
+Zone Home
+    Switch01 Stop
+    Switch02 Play
+    Switch03 Record   
+// 1068 Transport: Toggle repeat    
+    Switch04 Reaper 1068
+     
+    ExpressionPedal1 MasterTrackVolume 
+    ExpressionPedal2 TrackVolume 
+ZoneEnd

@@ -1,0 +1,18 @@
+Zone "VST: ReaEQ (Cockos)" ReaEQ 
+    FocusedFXNavigator
+//    SelectedTrackNavigator
+    RotaryG11 FXParam 0 "Freq-Low Shelf"
+    Fader1 FXParam 1 "Gain-Low Shelf"
+    Shift+RotaryG11 FXParam 2 "Q-Low Shelf"
+    RotaryG12 FXParam 3 "Freq-Band 2"
+    Fader2 FXParam 4 "Gain-Band 2"
+    Shift+RotaryG12 FXParam 5 "Q-Band 2"
+    RotaryG13 FXParam 6 "Freq-Band 3"
+    Fader3 FXParam 7 "Gain-Band 3"
+    Shift+RotaryG12 FXParam 8 "Q-Band 3"
+    RotaryG14 FXParam 9 "Freq-High Shelf"
+    Fader4 FXParam 10 "Gain-High Shelf"
+    Shift+RotaryG12 FXParam 11 "Q-High Shelf"
+//    FXParam 12 "Bypass"
+//    FXParam 13 "Wet"
+ZoneEnd

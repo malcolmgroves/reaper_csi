@@ -1,0 +1,31 @@
+Zone Home
+	OnFXFocus MapFocusedFXToWidgets
+
+	UserButton1 Reaper _S&M_SHOWFXCHAINSEL
+	UserButton1 Reaper _S&M_SELFXPREV
+
+	UserButton3 Reaper _S&M_SHOWFXCHAINSEL
+	UserButton3 Reaper _S&M_SELFXNEXT
+	IncludedZones
+		Channel|1-8
+	IncludedZonesEnd
+ZoneEnd
+
+Zone Channel|1-8 
+	TrackNavigator
+	RotaryG1| TrackPan
+	Shift+UpperButton| TrackSelect
+	Control+UpperButton| TrackSolo
+	Alt+UpperButton| TrackRecordArm
+	Option+UpperButton| TrackMute
+
+// 40297 Track: Unselect all tracks
+	UpperButton| Reaper 40297
+	UpperButton| TrackSelect
+	UpperButton| Reaper _S&M_SHOWFXCHAINSEL
+	LowerButton| Reaper _S&M_WNCLS4
+	LowerButton| GoZone Home
+//	LowerButton| MapSelectedTrackFXToWidgets
+
+	Fader|  TrackVolume
+ZoneEnd

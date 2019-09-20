@@ -1,0 +1,29 @@
+Zone Home
+    Shift Shift
+    Option Option
+    Control Control
+    Alt Alt
+
+    Fader MasterTrackVolume
+
+    F1 GoZone Home
+    Press+Left TrackBank -16
+    Press+Right TrackBank +16
+
+// 40084 Transport: Rewind a little bit    
+    Press+Rewind Reaper 40084
+// 40085 Transport: Fast forward a little bit    
+    Press+FastForward Reaper 40085
+// 41801 Regions: Go to previous region after current region finishes playing (smooth seek)
+    Shift+Press+Rewind Reaper 41801
+// 41802 Regions: Go to next region after current region finishes playing (smooth seek)    
+    Shift+Press+FastForward Reaper 41802
+
+    Press+Stop Stop
+    Press+Play Play
+    Press+Record Record
+// 1068 Transport: Toggle repeat    
+    Press+Loop Reaper 1068
+
+    Press+Flip ToggleLearnMode  
+ZoneEnd

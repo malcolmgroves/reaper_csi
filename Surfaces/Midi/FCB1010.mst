@@ -1,0 +1,82 @@
+Widget Switch01 
+    Press c0 00 00 
+WidgetEnd 
+
+Widget Switch02 
+    Press c0 01 00 
+WidgetEnd 
+
+Widget Switch03 
+    Press c0 02 00 
+WidgetEnd 
+
+Widget Switch04 
+    Press c0 03 00 
+WidgetEnd 
+
+Widget Switch05 
+    Press c0 04 00 
+WidgetEnd 
+
+Widget Switch06 
+    Press c0 05 00 
+WidgetEnd 
+
+Widget Switch07 
+    Press c0 06 00 
+WidgetEnd 
+
+Widget Switch08 
+    Press c0 07 00 
+WidgetEnd 
+
+Widget Switch09 
+    Press c0 08 00 
+WidgetEnd 
+
+Widget Switch11 
+    Press c0 0a 00 
+WidgetEnd 
+
+Widget Switch12 
+    Press c0 0b 00 
+WidgetEnd 
+
+Widget Switch13 
+    Press c0 0c 00 
+WidgetEnd 
+
+Widget Switch14 
+    Press c0 0d 00 
+WidgetEnd 
+
+Widget Switch15 
+    Press c0 0e 00 
+WidgetEnd 
+
+Widget Switch16 
+    Press c0 0f 00 
+WidgetEnd 
+
+Widget Switch17 
+    Press c0 10 00 
+WidgetEnd 
+
+Widget Switch18 
+    Press c0 11 00 
+WidgetEnd 
+
+Widget Switch19 
+    Press c0 012 00 
+WidgetEnd 
+
+Widget ExpressionPedal1
+	Fader7Bit b0 07 7f
+WidgetEnd
+
+Widget ExpressionPedal2
+	Fader7Bit b0 0b 7f
+WidgetEnd
+
+
+

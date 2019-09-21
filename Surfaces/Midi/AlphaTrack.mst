@@ -8,19 +8,19 @@ Widget FaderTouch
 WidgetEnd 
 
 // Button is actually labelled Rec, but I am using it as Alt Modifier
-//Widget Rec 
+// Widget Rec 
 Widget Alt 
 	Press 90 00 7f 90 00 00
 WidgetEnd 
 
 // Button is actually labelled Solo, but I am using it as Control Modifier
-//Widget Solo 
+// Widget Solo 
 Widget Control 
 	Press 90 08 7f 90 08 00
 WidgetEnd 
 
 // Button is actually labelled Mute, but I am using it as Option Modifier
-//Widget Mute 
+// Widget Mute 
 Widget Option 
 	Press 90 10 7f 90 10 00
 WidgetEnd 
@@ -32,6 +32,16 @@ WidgetEnd
 Widget Rotary1 
 	Encoder b0 10 7f
 WidgetEnd 
+
+Widget RotaryDecrement1 
+	Press b0 10 41
+WidgetEnd 
+
+Widget RotaryIncrement1 
+	Press b0 10 01
+WidgetEnd 
+
+
 
 Widget RotaryPush1 
 	Press 90 20 7f 90 20 00

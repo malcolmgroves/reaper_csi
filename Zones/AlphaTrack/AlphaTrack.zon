@@ -6,7 +6,14 @@ Zone Home
 
     Fader MasterTrackVolume
 
+// 40320 Time selection: Nudge left edge left
+// 40321 Time selection: Nudge left edge right
+    RotaryDecrement1 Reaper 40320 
+    RotaryIncrement1 Reaper 40321
+
     F1 GoZone Home
+    F2 GoZone MIDIEditor
+
     Press+Left TrackBank -16
     Press+Right TrackBank +16
 
@@ -27,3 +34,8 @@ Zone Home
 
     Press+Flip ToggleLearnMode  
 ZoneEnd
+
+Zone MIDIEditor
+
+ZoneEnd
+

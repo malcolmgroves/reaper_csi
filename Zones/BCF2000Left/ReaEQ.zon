@@ -1,6 +1,5 @@
 Zone "VST: ReaEQ (Cockos)" ReaEQ 
     FocusedFXNavigator
-//    SelectedTrackNavigator
     RotaryG11 FXParam 0 "Freq-Band 1"
     Fader1 FXParam 1 "Gain-Band 1"
     Shift+RotaryG11 FXParam 2 "Q-Band 1"

@@ -20,12 +20,56 @@ Zone Channel|1-8
 	Alt+UpperButton| TrackRecordArm
 	Option+UpperButton| TrackMute
 
+// FXMenu 
 // 40297 Track: Unselect all tracks
 	UpperButton| Reaper 40297
 	UpperButton| TrackSelect
-	UpperButton| Reaper _S&M_SHOWFXCHAINSEL
-	LowerButton| Reaper _S&M_WNCLS4
-	LowerButton| GoZone Home
+	UpperButton| MapSelectedTrackFXToMenu
 
 	Fader|  TrackVolume
+ZoneEnd
+
+Zone FXMenu|1-1
+	SelectedTrackNavigator
+//	ToDo Rotary Wet mix 
+	RotaryPushG11 Reaper _S&M_FXBYP1
+	RotaryPushG12 Reaper _S&M_FXBYP2 
+	RotaryPushG13 Reaper _S&M_FXBYP3
+	RotaryPushG14 Reaper _S&M_FXBYP4
+	RotaryPushG15 Reaper _S&M_FXBYP5
+	RotaryPushG16 Reaper _S&M_FXBYP6
+	RotaryPushG17 Reaper _S&M_FXBYP7
+	RotaryPushG18 Reaper _S&M_FXBYP8
+	UpperButton1 Reaper _S&M_SHOWFXCHAIN1 
+	UpperButton2 Reaper _S&M_SHOWFXCHAIN2 
+	UpperButton3 Reaper _S&M_SHOWFXCHAIN3 
+	UpperButton4 Reaper _S&M_SHOWFXCHAIN4 
+	UpperButton5 Reaper _S&M_SHOWFXCHAIN5 
+	UpperButton6 Reaper _S&M_SHOWFXCHAIN6 
+	UpperButton7 Reaper _S&M_SHOWFXCHAIN7 
+	UpperButton8 Reaper _S&M_SHOWFXCHAIN8 
+	LowerButton1 Reaper _S&M_WNCLS4
+	LowerButton1 MapSelectedTrackFXToMenu 
+	LowerButton2 Reaper _S&M_WNCLS4
+	LowerButton2 MapSelectedTrackFXToMenu 
+	LowerButton3 Reaper _S&M_WNCLS4
+	LowerButton3 MapSelectedTrackFXToMenu 
+	LowerButton4 Reaper _S&M_WNCLS4
+	LowerButton4 MapSelectedTrackFXToMenu 
+	LowerButton5 Reaper _S&M_WNCLS4
+	LowerButton5 MapSelectedTrackFXToMenu 
+	LowerButton6 Reaper _S&M_WNCLS4
+	LowerButton6 MapSelectedTrackFXToMenu 
+	LowerButton7 Reaper _S&M_WNCLS4
+	LowerButton7 MapSelectedTrackFXToMenu 
+	LowerButton8 Reaper _S&M_WNCLS4
+	LowerButton8 MapSelectedTrackFXToMenu 
+	Fader1 NoAction 
+	Fader2 NoAction 
+	Fader3 NoAction 
+	Fader4 NoAction 
+	Fader5 NoAction 
+	Fader6 NoAction 
+	Fader7 NoAction 
+	Fader8 NoAction 
 ZoneEnd

@@ -1,12 +1,6 @@
 Zone Home
 	OnFXFocus MapFocusedFXToWidgets
 
-	UserButton1 Reaper _S&M_SHOWFXCHAINSEL
-	UserButton1 Reaper _S&M_SELFXPREV
-
-	UserButton3 Reaper _S&M_SHOWFXCHAINSEL
-	UserButton3 Reaper _S&M_SELFXNEXT
-
 	IncludedZones
 		Channel|1-8
 	IncludedZonesEnd
@@ -19,19 +13,18 @@ Zone Channel|1-8
 	Control+UpperButton| TrackSolo
 	Alt+UpperButton| TrackRecordArm
 	Option+UpperButton| TrackMute
+	Fader|  TrackVolume
+
 
 // FXMenu 
 // 40297 Track: Unselect all tracks
 	UpperButton| Reaper 40297
 	UpperButton| TrackSelect
 	UpperButton| MapSelectedTrackFXToMenu
-
-	Fader|  TrackVolume
 ZoneEnd
 
 Zone FXMenu|1-1
-	SelectedTrackNavigator
-//	ToDo Rotary Wet mix 
+	SelectedTrackNavigator 
 	RotaryPushG11 Reaper _S&M_FXBYP1
 	RotaryPushG12 Reaper _S&M_FXBYP2 
 	RotaryPushG13 Reaper _S&M_FXBYP3
@@ -48,22 +41,14 @@ Zone FXMenu|1-1
 	UpperButton6 Reaper _S&M_SHOWFXCHAIN6 
 	UpperButton7 Reaper _S&M_SHOWFXCHAIN7 
 	UpperButton8 Reaper _S&M_SHOWFXCHAIN8 
-	LowerButton1 Reaper _S&M_WNCLS4
-	LowerButton1 MapSelectedTrackFXToMenu 
-	LowerButton2 Reaper _S&M_WNCLS4
-	LowerButton2 MapSelectedTrackFXToMenu 
-	LowerButton3 Reaper _S&M_WNCLS4
-	LowerButton3 MapSelectedTrackFXToMenu 
-	LowerButton4 Reaper _S&M_WNCLS4
-	LowerButton4 MapSelectedTrackFXToMenu 
-	LowerButton5 Reaper _S&M_WNCLS4
-	LowerButton5 MapSelectedTrackFXToMenu 
-	LowerButton6 Reaper _S&M_WNCLS4
-	LowerButton6 MapSelectedTrackFXToMenu 
-	LowerButton7 Reaper _S&M_WNCLS4
-	LowerButton7 MapSelectedTrackFXToMenu 
-	LowerButton8 Reaper _S&M_WNCLS4
-	LowerButton8 MapSelectedTrackFXToMenu 
+	LowerButton1 NoAction 
+	LowerButton2 NoAction 
+	LowerButton3 NoAction 
+	LowerButton4 NoAction 
+	LowerButton5 NoAction 
+	LowerButton6 NoAction 
+	LowerButton7 NoAction 
+	LowerButton8 NoAction 
 	Fader1 NoAction 
 	Fader2 NoAction 
 	Fader3 NoAction 
@@ -72,4 +57,9 @@ Zone FXMenu|1-1
 	Fader6 NoAction 
 	Fader7 NoAction 
 	Fader8 NoAction 
+
+	UserButton1 Reaper _S&M_SHOWFXCHAINSEL
+	UserButton1 Reaper _S&M_SELFXPREV
+	UserButton3 Reaper _S&M_SHOWFXCHAINSEL
+	UserButton3 Reaper _S&M_SELFXNEXT
 ZoneEnd

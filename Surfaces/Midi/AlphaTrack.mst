@@ -39,9 +39,23 @@ WidgetEnd
 
 Widget RotaryIncrement1 
 	Press b0 10 01
+WidgetEnd
+
+Widget RotaryMediumDecrement1 
+	Press b0 10 42
 WidgetEnd 
 
+Widget RotaryMediumIncrement1 
+	Press b0 10 02
+WidgetEnd
 
+Widget RotaryFastDecrement1 
+	Press b0 10 43
+WidgetEnd 
+
+Widget RotaryFastIncrement1 
+	Press b0 10 03
+WidgetEnd
 
 Widget RotaryPush1 
 	Press 90 20 7f 90 20 00
@@ -55,6 +69,14 @@ Widget Rotary2
 	Encoder b0 11 7f
 WidgetEnd 
 
+Widget RotaryDecrement2 
+	Press b0 11 41
+WidgetEnd 
+
+Widget RotaryIncrement2 
+	Press b0 11 01
+WidgetEnd
+
 Widget RotaryPush2 
 	Press 90 21 7f 90 21 00
 WidgetEnd 
@@ -66,6 +88,14 @@ WidgetEnd
 Widget Rotary3 
 	Encoder b0 12 7f
 WidgetEnd 
+
+Widget RotaryDecrement3 
+	Press b0 12 41
+WidgetEnd 
+
+Widget RotaryIncrement3 
+	Press b0 12 01
+WidgetEnd
 
 Widget RotaryPush3 
 	Press 90 22 7f 90 22 00

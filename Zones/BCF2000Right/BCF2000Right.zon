@@ -15,9 +15,7 @@ Zone Channel|1-8
 	Fader|  TrackVolume
 
 // FXMenu 
-// 40297 Track: Unselect all tracks
-	UpperButton| Reaper 40297
-	UpperButton| TrackSelect
+	UpperButton| TrackUniqueSelect
 	UpperButton| MapSelectedTrackFXToMenu
 ZoneEnd
 

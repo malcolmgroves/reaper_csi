@@ -1,24 +1,28 @@
 Zone Home
-    Shift Shift
-    Option Option
-    Control Control
-    Alt Alt
+	IncludedZones
+        Modifiers
+		TimeSelection
+        ZoneNavigation
+        TransportControls
+	IncludedZonesEnd
 
     Fader MasterTrackVolume
 
-// 40320 Time selection: Nudge left edge left
-// 40321 Time selection: Nudge left edge right
-    RotaryDecrement1 Reaper 40320 
-    RotaryIncrement1 Reaper 40321
-
-    F1 GoZone Home
-    F2 GoZone MIDIEditor
-    F4 Reaper _S&M_WNCLS4
-    F4 MapSelectedTrackFXToMenu
 
     Press+Left TrackBank -16
     Press+Right TrackBank +16
 
+    Press+Flip ToggleLearnMode  
+ZoneEnd
+
+Zone Modifiers
+    Shift Shift
+    Option Option
+    Control Control
+    Alt Alt
+ZoneEnd
+
+Zone TransportControls
 // 40084 Transport: Rewind a little bit    
     Press+Rewind Reaper 40084
 // 40085 Transport: Fast forward a little bit    
@@ -33,9 +37,53 @@ Zone Home
     Press+Record Record
 // 1068 Transport: Toggle repeat    
     Press+Loop Reaper 1068
-
-    Press+Flip ToggleLearnMode  
 ZoneEnd
+
+Zone ZoneNavigation
+    F1 GoZone Home
+    F2 GoZone MIDIEditor
+    F4 Reaper _S&M_WNCLS4
+    F4 MapSelectedTrackFXToMenu
+ZoneEnd
+
+Zone TimeSelection 
+// 40320 Time selection: Nudge left edge left
+// 40321 Time selection: Nudge left edge right
+    RotaryDecrement1 Reaper 40320 
+    RotaryIncrement1 Reaper 40321
+    RotaryMediumDecrement1 Reaper 40320 
+    RotaryMediumDecrement1 Reaper 40320 
+    RotaryMediumIncrement1 Reaper 40321
+    RotaryMediumIncrement1 Reaper 40321
+    RotaryFastDecrement1 Reaper 40320 
+    RotaryFastDecrement1 Reaper 40320 
+    RotaryFastDecrement1 Reaper 40320 
+    RotaryFastIncrement1 Reaper 40321
+    RotaryFastIncrement1 Reaper 40321
+    RotaryFastIncrement1 Reaper 40321
+// 40039 Time selection: Nudge left
+// 40040 Time selection: Nudge right
+    RotaryDecrement2 Reaper 40039 
+    RotaryIncrement2 Reaper 40040
+// 40322 Time selection: Nudge right edge left
+// 40323 Time selection: Nudge right edge right
+    RotaryDecrement3 Reaper 40322 
+    RotaryIncrement3 Reaper 40323
+
+// SWS: Toggle horizontal zoom to selected items or time selection
+// SWS: Set time selection to selected items (skip if time selection exists)
+ZoneEnd
+
+
+Zone FXMenu|1-1
+	SelectedTrackNavigator
+// this doesn't seem to map when in FXMenu
+//    Fader TrackVolume
+	Press+Left Reaper _S&M_SHOWFXCHAINSEL
+	Press+Left Reaper _S&M_SELFXPREV
+	Press+Right Reaper _S&M_SHOWFXCHAINSEL
+	Press+Right Reaper _S&M_SELFXNEXT
+ ZoneEnd
 
 Zone MIDIEditor
 

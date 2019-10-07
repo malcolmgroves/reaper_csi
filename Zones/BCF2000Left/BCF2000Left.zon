@@ -60,3 +60,17 @@ Zone FXMenu|1-1
 	UserButton3 Reaper _S&M_SHOWFXCHAINSEL
 	UserButton3 Reaper _S&M_SELFXNEXT
 ZoneEnd
+
+Zone MIDIEditor
+
+ZoneEnd
+
+Zone ItemEditor
+// 41520 Item: Cycle through fade-in shapes
+//	RotaryPushG11 Reaper 41520
+// 41527 Item: Cycle through fade-out shapes	
+//	RotaryPushG13 Reaper 41527
+
+//	RotaryG11 Reaper _RSf4aab24cb02a030631b6a5335b137f49de38f50e
+ZoneEnd
+

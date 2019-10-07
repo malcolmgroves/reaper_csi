@@ -7,6 +7,14 @@ Widget FaderTouch
 	Press 90 68 7f 90 68 00
 WidgetEnd 
 
+Widget FaderTouchOn 
+	Press 90 68 7f 
+WidgetEnd 
+
+Widget FaderTouchOff 
+	Press 90 68 00
+WidgetEnd 
+
 // Button is actually labelled Rec, but I am using it as Alt Modifier
 // Widget Rec 
 Widget Alt 

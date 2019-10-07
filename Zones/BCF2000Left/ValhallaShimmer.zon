@@ -1,0 +1,20 @@
+Zone "VST: ValhallaShimmer (Valhalla DSP, LLC)" ValhallaShimmer 
+    FocusedFXNavigator
+    Fader1 FXParam 0 "mix"
+    Fader2 FXParam 1 "shift"
+    Fader3 FXParam 2 "feedback"
+    Fader4 FXParam 3 "diffusion"
+    Fader5 FXParam 4 "size"
+    RotaryG11 FXParam 5 "lowCut"
+    RotaryG12 FXParam 6 "highCut"
+    RotaryG13 FXParam 7 "modRate"
+    RotaryG14 FXParam 8 "modDepth"
+    RotaryG15 FXParam 9 "reverbMode"
+    RotaryG16 FXParam 10 "shiftMode"
+    RotaryG17 FXParam 11 "colorMode"
+    RotaryG18 FXParam 99 ""
+//    FXParam 12 "Bypass"
+    Fader6 FXParam 99 ""
+    Fader7 FXParam 99 ""
+    Fader8 FXParam 13 "Wet"
+ZoneEnd    

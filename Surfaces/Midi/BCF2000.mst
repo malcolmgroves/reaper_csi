@@ -1,41 +1,41 @@
 Widget RotaryG11
-	Fader7Bit b0 01 7f
-	FB_Fader7Bit b0 01 00
+	Encoder b0 01 7f
+	FB_Encoder b0 01 7f
 WidgetEnd
 
 Widget RotaryG12
-	Fader7Bit b0 02 7f
-	FB_Fader7Bit b0 02 00
+	Encoder b0 02 7f
+	FB_Encoder b0 02 00
 WidgetEnd
 
 Widget RotaryG13
-	Fader7Bit b0 03 7f
-	FB_Fader7Bit b0 03 00
+	Encoder b0 03 7f
+	FB_Encoder b0 03 00
 WidgetEnd
 
 Widget RotaryG14
-	Fader7Bit b0 04 7f
-	FB_Fader7Bit b0 04 00
+	Encoder b0 04 7f
+	FB_Encoder b0 04 00
 WidgetEnd
 
 Widget RotaryG15
-	Fader7Bit b0 05 7f
-	FB_Fader7Bit b0 05 00
+	Encoder b0 05 7f
+	FB_Encoder b0 05 00
 WidgetEnd
 
 Widget RotaryG16
-	Fader7Bit b0 06 7f
-	FB_Fader7Bit b0 06 00
+	Encoder b0 06 7f
+	FB_Encoder b0 06 00
 WidgetEnd
 
 Widget RotaryG17
-	Fader7Bit b0 07 7f
-	FB_Fader7Bit b0 07 00
+	Encoder b0 07 7f
+	FB_Encoder b0 07 00
 WidgetEnd
 
 Widget RotaryG18
-	Fader7Bit b0 08 7f
-	FB_Fader7Bit b0 08 00
+	Encoder b0 08 7f
+	FB_Encoder b0 08 00
 WidgetEnd
 
 Widget RotaryG21

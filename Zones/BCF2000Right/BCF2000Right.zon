@@ -59,3 +59,17 @@ Zone FXMenu|1-1
 	UserButton3 Reaper _S&M_SHOWFXCHAINSEL
 	UserButton3 Reaper _S&M_SELFXNEXT
 ZoneEnd
+
+
+Zone MIDIEditor
+
+ZoneEnd
+
+Zone ItemEditor 
+// Track: Toggle track volume envelope visible	
+	UpperButton1 Reaper 40406
+	Fader1 NoAction 
+//	UpperButton2 Reaper 40407
+//	Fader2 NoAction 
+ZoneEnd
+

@@ -7,12 +7,21 @@ Zone Home
 	IncludedZonesEnd
 
     Fader MasterTrackVolume
+// Script: MalGEnsureMasterTrackVisible.lua    
+//    FaderTouchOn Reaper _RSb0f4909aa462d8e495484d203f9d8c8ef7a3cdca
+// Script: MalGEnsureMasterTrackInvisible.lua    
+//    FaderTouchOff Reaper _RScae2ddaef9be703bed3ad77ca18de9b1c97896c7
 
+// Custom Action : MalGMIDIJog.lua https://github.com/malcolmgroves/reaper_scripts
+//    Scrub Reaper _RSec387aa0139d26179af84721c800395d30392f5b
+//    Scrub Reaper _RS3f00f987a28e07b6441a6cd54a985e04cf3bd8f3
 
     Press+Left TrackBank -16
     Press+Right TrackBank +16
 
     Press+Flip ToggleLearnMode  
+
+    DisplayUpper1 TimeDisplay 
 ZoneEnd
 
 Zone Modifiers
@@ -42,6 +51,7 @@ ZoneEnd
 Zone ZoneNavigation
     F1 GoZone Home
     F2 GoZone MIDIEditor
+    F3 GoZone ItemEditor 
     F4 Reaper _S&M_WNCLS4
     F4 MapSelectedTrackFXToMenu
 ZoneEnd
@@ -78,14 +88,18 @@ ZoneEnd
 Zone FXMenu|1-1
 	SelectedTrackNavigator
 // this doesn't seem to map when in FXMenu
-//    Fader TrackVolume
+    Fader TrackVolume
 	Press+Left Reaper _S&M_SHOWFXCHAINSEL
 	Press+Left Reaper _S&M_SELFXPREV
 	Press+Right Reaper _S&M_SHOWFXCHAINSEL
 	Press+Right Reaper _S&M_SELFXNEXT
- ZoneEnd
+ZoneEnd
 
 Zone MIDIEditor
+
+ZoneEnd
+
+Zone ItemEditor
 
 ZoneEnd
 

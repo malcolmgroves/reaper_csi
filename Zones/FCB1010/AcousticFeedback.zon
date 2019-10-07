@@ -1,0 +1,10 @@
+Zone "VST: Acoustic Feedback (Softube)" AcousticFeedback 
+    FocusedFXNavigator
+    ExpressionPedal1 FXParam 0 "Mix"
+    ExpressionPedal2 FXParam 1 "Feedback"
+    Switch06 FXParam 99 ""
+    Switch07 FXParam 99 ""
+    Switch08 FXParam 99 ""
+    Switch09 FXParam 99 ""
+    Switch10 FXParam 3 "Bypass"
+ZoneEnd    

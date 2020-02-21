@@ -4,7 +4,7 @@ Widget Fader
 WidgetEnd 
 
 Widget FaderTouch 
-	Press 90 68 7f 90 68 00
+	Press 90 68 7f
 WidgetEnd 
 
 Widget FaderTouchOn 
@@ -18,23 +18,23 @@ WidgetEnd
 // Button is actually labelled Rec, but I am using it as Alt Modifier
 // Widget Rec 
 Widget Alt 
-	Press 90 00 7f 90 00 00
+	Press 90 00 7f 
 WidgetEnd 
 
 // Button is actually labelled Solo, but I am using it as Control Modifier
 // Widget Solo 
 Widget Control 
-	Press 90 08 7f 90 08 00
+	Press 90 08 7f 
 WidgetEnd 
 
 // Button is actually labelled Mute, but I am using it as Option Modifier
 // Widget Mute 
 Widget Option 
-	Press 90 10 7f 90 10 00
+	Press 90 10 7f 
 WidgetEnd 
 
 Widget Shift 
-	Press 90 46 7f 90 46 00
+	Press 90 46 7f 
 WidgetEnd 
 
 Widget Rotary1 
@@ -66,11 +66,11 @@ Widget RotaryFastIncrement1
 WidgetEnd
 
 Widget RotaryPush1 
-	Press 90 20 7f 90 20 00
+	Press 90 20 7f 
 WidgetEnd 
 
 Widget RotaryTouch1 
-	Press 90 78 7f 90 78 00
+	Press 90 78 7f 
 WidgetEnd 
 
 Widget Rotary2 
@@ -86,11 +86,11 @@ Widget RotaryIncrement2
 WidgetEnd
 
 Widget RotaryPush2 
-	Press 90 21 7f 90 21 00
+	Press 90 21 7f 
 WidgetEnd 
 
 Widget RotaryTouch2 
-	Press 90 79 7f 90 79 00
+	Press 90 79 7f 
 WidgetEnd 
 
 Widget Rotary3 
@@ -106,96 +106,96 @@ Widget RotaryIncrement3
 WidgetEnd
 
 Widget RotaryPush3 
-	Press 90 22 7f 90 22 00
+	Press 90 22 7f 
 WidgetEnd 
 
 Widget RotaryTouch3 
-	Press 90 7a 7f 90 7a 00
+	Press 90 7a 7f 
 WidgetEnd 
 
 Widget Pan 
-	Press 90 2a 7f 90 2a 00
+	Press 90 2a 7f
 	FB_TwoState 90 2a 7f 90 2a 00
 WidgetEnd 
 
 Widget Send 
-	Press 90 29 7f 90 29 00
+	Press 90 29 7f
 	FB_TwoState 90 29 7f 90 29 00
 WidgetEnd 
 
 Widget EQ 
-	Press 90 2c 7f 90 2c 00
+	Press 90 2c 7f
 	FB_TwoState 90 2c 7f 90 2c 00
 WidgetEnd 
 
 Widget Plugin 
-	Press 90 2b 7f 90 2b 00
+	Press 90 2b 7f
 	FB_TwoState 90 2b 7f 90 2b 00
 WidgetEnd 
 
 Widget Auto 
-	Press 90 4a 7f 90 4a 00
+	Press 90 4a 7f
 	FB_TwoState 90 4a 7f 90 4a 00
 WidgetEnd 
 
 Widget F1 
-	Press 90 36 7f 90 36 00
+	Press 90 36 7f
 	FB_TwoState 90 36 7f 90 36 00
 WidgetEnd 
 
 Widget F2 
-	Press 90 37 7f 90 37 00
+	Press 90 37 7f
 	FB_TwoState 90 37 7f 90 37 00
 WidgetEnd 
 
 Widget F3 
-	Press 90 38 7f 90 38 00
+	Press 90 38 7f
 	FB_TwoState 90 38 7f 90 38 00
 WidgetEnd 
 
 Widget F4 
-	Press 90 39 7f 90 39 00
+	Press 90 39 7f 
 	FB_TwoState 90 39 7f 90 39 00
 WidgetEnd 
 
 Widget Left 
-	Press 90 57 7f 90 57 00
+	Press 90 57 7f
 	FB_TwoState 90 57 7f 90 57 00
 WidgetEnd 
 
 Widget Right 
-	Press 90 58 7f 90 58 00
+	Press 90 58 7f 
 	FB_TwoState 90 58 7f 90 58 00
 WidgetEnd 
 
 Widget Loop 
-	Press 90 56 7f 90 56 00
+	Press 90 56 7f 
 	FB_TwoState 90 56 7f 90 56 00
 WidgetEnd 
 
 Widget Flip 
-	Press 90 32 7f 90 32 00
+	Press 90 32 7f 
 	FB_TwoState 90 32 7f 90 32 00
 WidgetEnd 
 
 Widget Rewind 
-	Press 90 5b 7f 90 5b 00
+	Press 90 5b 7f 
 WidgetEnd 
 
 Widget FastForward 
-	Press 90 5c 7f 90 5c 00
+	Press 90 5c 7f 
 WidgetEnd 
 
 Widget Stop 
-	Press 90 5d 7f 90 5d 00
+	Press 90 5d 7f 
 WidgetEnd 
 
 Widget Play 
-	Press 90 5e 7f 90 5e 00
+	Press 90 5e 7f 
 WidgetEnd 
 
 Widget Record 
-	Press 90 5f 7f 90 5f 00
+	Press 90 5f 7f 
 WidgetEnd 
 
 Widget Scrub 
@@ -203,7 +203,7 @@ Widget Scrub
 WidgetEnd 
 
 Widget ScrubTouch 
-	Press 90 74 7f 90 74 00
+	Press 90 74 7f 
 WidgetEnd 
 
 

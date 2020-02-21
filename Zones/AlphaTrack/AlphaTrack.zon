@@ -1,105 +1,113 @@
-Zone Home
+Zone "Home"
 	IncludedZones
-        Modifiers
-		TimeSelection
-        ZoneNavigation
-        TransportControls
+        "TransportControls|"
+        "Modifiers|"
+        "MasterChannel|"
+		"TimeSelection|"
+        "ZoneNavigation|"
 	IncludedZonesEnd
 
-    Fader MasterTrackVolume
 // Script: MalGEnsureMasterTrackVisible.lua    
-//    FaderTouchOn Reaper _RSb0f4909aa462d8e495484d203f9d8c8ef7a3cdca
+//    FaderTouchOn Reaper "_RSb0f4909aa462d8e495484d203f9d8c8ef7a3cdca"
 // Script: MalGEnsureMasterTrackInvisible.lua    
-//    FaderTouchOff Reaper _RScae2ddaef9be703bed3ad77ca18de9b1c97896c7
+//    FaderTouchOff Reaper "_RScae2ddaef9be703bed3ad77ca18de9b1c97896c7"
 
 // Custom Action : MalGMIDIJog.lua https://github.com/malcolmgroves/reaper_scripts
-//    Scrub Reaper _RSec387aa0139d26179af84721c800395d30392f5b
-//    Scrub Reaper _RS3f00f987a28e07b6441a6cd54a985e04cf3bd8f3
+    Scrub Reaper "_RSec387aa0139d26179af84721c800395d30392f5b"
+////    Scrub Reaper "_RS3f00f987a28e07b6441a6cd54a985e04cf3bd8f3"
 
-    Press+Left TrackBank -16
-    Press+Right TrackBank +16
+    Left TrackBank "-16"
+    Right TrackBank "+16"
 
-    Press+Flip ToggleLearnMode  
+//    Flip ToggleLearnMode  
 
-    DisplayUpper1 TimeDisplay 
+//    DisplayUpper1 TimeDisplay 
+
 ZoneEnd
 
-Zone Modifiers
+Zone "Modifiers|"
     Shift Shift
     Option Option
     Control Control
     Alt Alt
 ZoneEnd
 
-Zone TransportControls
-// 40084 Transport: Rewind a little bit    
-    Press+Rewind Reaper 40084
-// 40085 Transport: Fast forward a little bit    
-    Press+FastForward Reaper 40085
-// 41801 Regions: Go to previous region after current region finishes playing (smooth seek)
-    Shift+Press+Rewind Reaper 41801
-// 41802 Regions: Go to next region after current region finishes playing (smooth seek)    
-    Shift+Press+FastForward Reaper 41802
-
-    Press+Stop Stop
-    Press+Play Play
-    Press+Record Record
-// 1068 Transport: Toggle repeat    
-    Press+Loop Reaper 1068
+Zone "MasterChannel|"
+    MasterTrackNavigator
+    Fader TrackVolume
 ZoneEnd
 
-Zone ZoneNavigation
+Zone "TransportControls|"
+// 40084 Transport: Rewind a little bit    
+    Rewind Reaper "40084"
+// 40085 Transport: Fast forward a little bit    
+    FastForward Reaper "40085"
+// 41801 Regions: Go to previous region after current region finishes playing (smooth seek)
+    Shift+Rewind Reaper "41801"
+// 41802 Regions: Go to next region after current region finishes playing (smooth seek)    
+    Shift+FastForward Reaper "41802"
+
+    Stop Stop
+    Play Play
+    Record Record
+// 1068 Transport: Toggle repeat    
+    Toggle+Loop Reaper "1068"
+ZoneEnd
+
+Zone "ZoneNavigation|"
     F1 GoZone Home
     F2 GoZone MIDIEditor
     F3 GoZone ItemEditor 
-    F4 Reaper _S&M_WNCLS4
+// back to FXMenu     
+    F4 Reaper "_S&M_WNCLS4"
     F4 MapSelectedTrackFXToMenu
 ZoneEnd
 
-Zone TimeSelection 
+Zone "TimeSelection|" 
 // 40320 Time selection: Nudge left edge left
 // 40321 Time selection: Nudge left edge right
-    RotaryDecrement1 Reaper 40320 
-    RotaryIncrement1 Reaper 40321
-    RotaryMediumDecrement1 Reaper 40320 
-    RotaryMediumDecrement1 Reaper 40320 
-    RotaryMediumIncrement1 Reaper 40321
-    RotaryMediumIncrement1 Reaper 40321
-    RotaryFastDecrement1 Reaper 40320 
-    RotaryFastDecrement1 Reaper 40320 
-    RotaryFastDecrement1 Reaper 40320 
-    RotaryFastIncrement1 Reaper 40321
-    RotaryFastIncrement1 Reaper 40321
-    RotaryFastIncrement1 Reaper 40321
+    RotaryDecrement1 Reaper "40320" 
+    RotaryIncrement1 Reaper "40321"
+    RotaryMediumDecrement1 Reaper "40320" 
+    RotaryMediumDecrement1 Reaper "40320" 
+    RotaryMediumIncrement1 Reaper "40321"
+    RotaryMediumIncrement1 Reaper "40321"
+    RotaryFastDecrement1 Reaper "40320" 
+    RotaryFastDecrement1 Reaper "40320" 
+    RotaryFastDecrement1 Reaper "40320" 
+    RotaryFastIncrement1 Reaper "40321"
+    RotaryFastIncrement1 Reaper "40321"
+    RotaryFastIncrement1 Reaper "40321"
 // 40039 Time selection: Nudge left
 // 40040 Time selection: Nudge right
-    RotaryDecrement2 Reaper 40039 
-    RotaryIncrement2 Reaper 40040
+    RotaryDecrement2 Reaper "40039" 
+    RotaryIncrement2 Reaper "40040"
 // 40322 Time selection: Nudge right edge left
 // 40323 Time selection: Nudge right edge right
-    RotaryDecrement3 Reaper 40322 
-    RotaryIncrement3 Reaper 40323
+    RotaryDecrement3 Reaper "40322" 
+    RotaryIncrement3 Reaper "40323"
+
 
 // SWS: Toggle horizontal zoom to selected items or time selection
 // SWS: Set time selection to selected items (skip if time selection exists)
 ZoneEnd
 
 
-Zone FXMenu|1-1
+Zone "FXMenu|1-1"
 	SelectedTrackNavigator
 // this doesn't seem to map when in FXMenu
-    Fader TrackVolume
-	Press+Left Reaper _S&M_SHOWFXCHAINSEL
-	Press+Left Reaper _S&M_SELFXPREV
-	Press+Right Reaper _S&M_SHOWFXCHAINSEL
-	Press+Right Reaper _S&M_SELFXNEXT
+//    Fader TrackVolume
+	Left Reaper "_S&M_SHOWFXCHAINSEL"
+	Left Reaper "_S&M_SELFXPREV"
+	Right Reaper "_S&M_SHOWFXCHAINSEL"
+	Right Reaper "_S&M_SELFXNEXT"
 ZoneEnd
 
-Zone MIDIEditor
+//Zone "MIDIEditor"
 
-ZoneEnd
+//ZoneEnd
 
-Zone ItemEditor
+//Zone "ItemEditor"
 
-ZoneEnd
+//ZoneEnd
 

@@ -1,43 +1,56 @@
 Zone Home
 	OnFXFocus MapFocusedFXToWidgets
-
 	IncludedZones
-		Channel|1-8
+		"Channel|1-8"
+		"Modifiers|"
 	IncludedZonesEnd
+
+    UserButton3_On TrackBank "-16"
+    UserButton3_Off TrackBank "-16"
+    UserButton4_On TrackBank "+16"
+    UserButton4_Off TrackBank "+16"
+
 ZoneEnd
 
-Zone Channel|1-8 
+Zone "Modifiers|"
+    Shift Shift
+    Option Option
+    Control Control
+    Alt Alt
+ZoneEnd
+
+Zone "Channel|1-8" 
 	TrackNavigator
-	RotaryG1| TrackPan
-	Shift+UpperButton| TrackSelect
+	RotaryG1| TrackPan "0"
+	UpperButton| TrackSelect
 	Control+UpperButton| TrackSolo
 	Alt+UpperButton| TrackRecordArm
 	Option+UpperButton| TrackMute
 	Fader|  TrackVolume
 
 // FXMenu 
-	UpperButton| TrackUniqueSelect
-	UpperButton| MapSelectedTrackFXToMenu
+	Shift+UpperButton| TrackUniqueSelect
+	Shift+UpperButton| MapSelectedTrackFXToMenu
 ZoneEnd
 
-Zone FXMenu|1-1
+Zone "FXMenu|1-1"
 	SelectedTrackNavigator 
-	RotaryPushG11 Reaper _S&M_FXBYP1
-	RotaryPushG12 Reaper _S&M_FXBYP2 
-	RotaryPushG13 Reaper _S&M_FXBYP3
-	RotaryPushG14 Reaper _S&M_FXBYP4
-	RotaryPushG15 Reaper _S&M_FXBYP5
-	RotaryPushG16 Reaper _S&M_FXBYP6
-	RotaryPushG17 Reaper _S&M_FXBYP7
-	RotaryPushG18 Reaper _S&M_FXBYP8
-	UpperButton1 Reaper _S&M_SHOWFXCHAIN1 
-	UpperButton2 Reaper _S&M_SHOWFXCHAIN2 
-	UpperButton3 Reaper _S&M_SHOWFXCHAIN3 
-	UpperButton4 Reaper _S&M_SHOWFXCHAIN4 
-	UpperButton5 Reaper _S&M_SHOWFXCHAIN5 
-	UpperButton6 Reaper _S&M_SHOWFXCHAIN6 
-	UpperButton7 Reaper _S&M_SHOWFXCHAIN7 
-	UpperButton8 Reaper _S&M_SHOWFXCHAIN8 
+	RotaryPushG11 Reaper "_S&M_FXBYP1"
+	RotaryPushG12 Reaper "_S&M_FXBYP2" 
+	RotaryPushG13 Reaper "_S&M_FXBYP3"
+	RotaryPushG14 Reaper "_S&M_FXBYP4"
+	RotaryPushG15 Reaper "_S&M_FXBYP5"
+	RotaryPushG16 Reaper "_S&M_FXBYP6"
+	RotaryPushG17 Reaper "_S&M_FXBYP7"
+	RotaryPushG18 Reaper "_S&M_FXBYP8"
+	UpperButton1 Reaper "_S&M_SHOWFXCHAIN1" 
+	UpperButton2 Reaper "_S&M_SHOWFXCHAIN2" 
+	UpperButton3 Reaper "_S&M_SHOWFXCHAIN3" 
+	UpperButton4 Reaper "_S&M_SHOWFXCHAIN4" 
+	UpperButton5 Reaper "_S&M_SHOWFXCHAIN5" 
+	UpperButton6 Reaper "_S&M_SHOWFXCHAIN6" 
+	UpperButton7 Reaper "_S&M_SHOWFXCHAIN7" 
+	UpperButton8 Reaper "_S&M_SHOWFXCHAIN8" 
 	LowerButton1 NoAction 
 	LowerButton2 NoAction 
 	LowerButton3 NoAction 
@@ -55,22 +68,22 @@ Zone FXMenu|1-1
 	Fader7 NoAction 
 	Fader8 NoAction 
 
-	UserButton1 Reaper _S&M_SHOWFXCHAINSEL
-	UserButton1 Reaper _S&M_SELFXPREV
-	UserButton3 Reaper _S&M_SHOWFXCHAINSEL
-	UserButton3 Reaper _S&M_SELFXNEXT
+	UserButton1 Reaper "_S&M_SHOWFXCHAINSEL"
+	UserButton1 Reaper "_S&M_SELFXPREV"
+	UserButton2 Reaper "_S&M_SHOWFXCHAINSEL"
+	UserButton2 Reaper "_S&M_SELFXNEXT"
 ZoneEnd
 
-Zone MIDIEditor
+//Zone "MIDIEditor"
 
-ZoneEnd
+//ZoneEnd
 
-Zone ItemEditor
+Zone "ItemEditor"
 // 41520 Item: Cycle through fade-in shapes
-//	RotaryPushG11 Reaper 41520
+	RotaryPushG11 Reaper "41520"
 // 41527 Item: Cycle through fade-out shapes	
-//	RotaryPushG13 Reaper 41527
+	RotaryPushG13 Reaper "41527"
 
-//	RotaryG11 Reaper _RSf4aab24cb02a030631b6a5335b137f49de38f50e
+	RotaryG11 Reaper "_RSf4aab24cb02a030631b6a5335b137f49de38f50e"
 ZoneEnd
 

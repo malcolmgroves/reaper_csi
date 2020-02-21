@@ -1,11 +1,11 @@
 Zone Home
 	OnFXFocus MapFocusedFXToWidgets
 	IncludedZones
-		Channel|1-8
+		"Channel|1-8"
 	IncludedZonesEnd
 ZoneEnd
 
-Zone Channel|1-8 
+Zone "Channel|1-8" 
 	TrackNavigator
 	RotaryG1| TrackPan
 	Shift+UpperButton| TrackSelect
@@ -19,24 +19,24 @@ Zone Channel|1-8
 	UpperButton| MapSelectedTrackFXToMenu
 ZoneEnd
 
-Zone FXMenu|1-1
+Zone "FXMenu|1-1"
 	SelectedTrackNavigator 
-	RotaryPushG11 Reaper _S&M_FXBYP1
-	RotaryPushG12 Reaper _S&M_FXBYP2 
-	RotaryPushG13 Reaper _S&M_FXBYP3
-	RotaryPushG14 Reaper _S&M_FXBYP4
-	RotaryPushG15 Reaper _S&M_FXBYP5
-	RotaryPushG16 Reaper _S&M_FXBYP6
-	RotaryPushG17 Reaper _S&M_FXBYP7
-	RotaryPushG18 Reaper _S&M_FXBYP8
-	UpperButton1 Reaper _S&M_SHOWFXCHAIN1 
-	UpperButton2 Reaper _S&M_SHOWFXCHAIN2 
-	UpperButton3 Reaper _S&M_SHOWFXCHAIN3 
-	UpperButton4 Reaper _S&M_SHOWFXCHAIN4 
-	UpperButton5 Reaper _S&M_SHOWFXCHAIN5 
-	UpperButton6 Reaper _S&M_SHOWFXCHAIN6 
-	UpperButton7 Reaper _S&M_SHOWFXCHAIN7 
-	UpperButton8 Reaper _S&M_SHOWFXCHAIN8 
+	RotaryPushG11 Reaper "_S&M_FXBYP1"
+	RotaryPushG12 Reaper "_S&M_FXBYP2" 
+	RotaryPushG13 Reaper "_S&M_FXBYP3"
+	RotaryPushG14 Reaper "_S&M_FXBYP4"
+	RotaryPushG15 Reaper "_S&M_FXBYP5"
+	RotaryPushG16 Reaper "_S&M_FXBYP6"
+	RotaryPushG17 Reaper "_S&M_FXBYP7"
+	RotaryPushG18 Reaper "_S&M_FXBYP8"
+	UpperButton1 Reaper "_S&M_SHOWFXCHAIN1" 
+	UpperButton2 Reaper "_S&M_SHOWFXCHAIN2" 
+	UpperButton3 Reaper "_S&M_SHOWFXCHAIN3" 
+	UpperButton4 Reaper "_S&M_SHOWFXCHAIN4" 
+	UpperButton5 Reaper "_S&M_SHOWFXCHAIN5" 
+	UpperButton6 Reaper "_S&M_SHOWFXCHAIN6" 
+	UpperButton7 Reaper "_S&M_SHOWFXCHAIN7" 
+	UpperButton8 Reaper "_S&M_SHOWFXCHAIN8" 
 	LowerButton1 NoAction 
 	LowerButton2 NoAction 
 	LowerButton3 NoAction 
@@ -54,22 +54,21 @@ Zone FXMenu|1-1
 	Fader7 NoAction 
 	Fader8 NoAction 
 
-	UserButton1 Reaper _S&M_SHOWFXCHAINSEL
-	UserButton1 Reaper _S&M_SELFXPREV
-	UserButton3 Reaper _S&M_SHOWFXCHAINSEL
-	UserButton3 Reaper _S&M_SELFXNEXT
+	UserButton1 Reaper "_S&M_SHOWFXCHAINSEL"
+	UserButton1 Reaper "_S&M_SELFXPREV"
+	UserButton3 Reaper "_S&M_SHOWFXCHAINSEL"
+	UserButton3 Reaper "_S&M_SELFXNEXT"
+
+
+Zone "MIDIEditor"
+
 ZoneEnd
 
-
-Zone MIDIEditor
-
-ZoneEnd
-
-Zone ItemEditor 
+Zone "ItemEditor" 
 // Track: Toggle track volume envelope visible	
-	UpperButton1 Reaper 40406
+	UpperButton1 Reaper "40406"
 	Fader1 NoAction 
-//	UpperButton2 Reaper 40407
+//	UpperButton2 Reaper "40407"
 //	Fader2 NoAction 
 ZoneEnd
 

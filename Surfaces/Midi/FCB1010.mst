@@ -16,7 +16,7 @@ WidgetEnd
 
 Widget Switch05 
     Press c0 04 00 
-WidgetEnd 
+WidgetEnd  
 
 Widget Switch06 
     Press c0 05 00 
@@ -32,6 +32,10 @@ WidgetEnd
 
 Widget Switch09 
     Press c0 08 00 
+WidgetEnd 
+
+Widget Switch10 
+    Press c0 09 00 
 WidgetEnd 
 
 Widget Switch11 
@@ -75,7 +79,7 @@ Widget ExpressionPedal1
 WidgetEnd
 
 Widget ExpressionPedal2
-	Fader7Bit b0 0b 7f
+	Fader7Bit b0 0a 7f
 WidgetEnd
 
 

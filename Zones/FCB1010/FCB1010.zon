@@ -1,10 +1,28 @@
 Zone Home
-    Switch01 Stop
-    Switch02 Play
-    Switch03 Record   
+    IncludedZones
+        "MasterTrack|"
+        "TransportControls|"
+        "SelectedTrack|"    
+    IncludedZonesEnd
+ZoneEnd
+
+Zone "TransportControls|"
+    Switch06 Stop
+    Switch07 Play
+    Switch08 Record   
 // 1068 Transport: Toggle repeat    
-    Switch04 Reaper 1068
-     
-    ExpressionPedal1 MasterTrackVolume 
+    Switch09 Reaper 1068
+ZoneEnd
+
+Zone "MasterTrack|"
+    MasterTrackNavigator
+    ExpressionPedal1 TrackVolume 
+ZoneEnd
+
+Zone "SelectedTrack|"
+    SelectedTrackNavigator
     ExpressionPedal2 TrackVolume 
+    Switch01 TrackRecordArm
+// 40318 Item navigation: Move cursor left to edge of item    
+    Switch02 Reaper "40318"
 ZoneEnd

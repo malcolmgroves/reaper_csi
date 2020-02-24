@@ -288,82 +288,82 @@ Widget RotaryPushG48
 WidgetEnd
 
 Widget UpperButton1 
-    Press 90 20 7f  
+    AnyPress 90 20 7f 
     FB_TwoState 90 20 7f  90 20 00
 WidgetEnd 
 
 Widget UpperButton2 
-    Press 90 21 7f  
+    AnyPress 90 21 7f  
     FB_TwoState 90 21 7f  90 21 00
 WidgetEnd 
 
 Widget UpperButton3 
-    Press 90 22 7f 
+    AnyPress 90 22 7f 
     FB_TwoState 90 22 7f  90 22 00
 WidgetEnd 
 
 Widget UpperButton4 
-    Press 90 23 7f 
+    AnyPress 90 23 7f 
     FB_TwoState 90 23 7f  90 23 00
 WidgetEnd 
 
 Widget UpperButton5 
-    Press 90 24 7f 
+    AnyPress 90 24 7f 
     FB_TwoState 90 24 7f  90 24 00
 WidgetEnd 
 
 Widget UpperButton6 
-    Press 90 25 7f 
+    AnyPress 90 25 7f 
     FB_TwoState 90 25 7f  90 25 00
 WidgetEnd 
 
 Widget UpperButton7 
-    Press 90 26 7f 
+    AnyPress 90 26 7f 
     FB_TwoState 90 26 7f  90 26 00
 WidgetEnd 
 
 Widget UpperButton8 
-    Press 90 27 7f 
+    AnyPress 90 27 7f 
     FB_TwoState 90 27 7f  90 27 00
 WidgetEnd 
 
 Widget LowerButton1 
-    Press 90 28 7f 
+    AnyPress 90 28 7f 
     FB_TwoState 90 28 7f  90 28 00
 WidgetEnd 
 
 Widget LowerButton2 
-    Press 90 29 7f  
+    AnyPress 90 29 7f  
     FB_TwoState 90 29 7f  90 29 00
 WidgetEnd 
 
 Widget LowerButton3 
-    Press 90 2a 7f 
+    AnyPress 90 2a 7f 
     FB_TwoState 90 2a 7f  90 2a 00
 WidgetEnd 
 
 Widget LowerButton4 
-    Press 90 2b 7f  
+    AnyPress 90 2b 7f  
     FB_TwoState 90 2b 7f  90 2b 00
 WidgetEnd 
 
 Widget LowerButton5 
-    Press 90 2c 7f  
+    AnyPress 90 2c 7f  
     FB_TwoState 90 2c 7f  90 2c 00
 WidgetEnd 
 
 Widget LowerButton6 
-    Press 90 2d 7f 
+    AnyPress 90 2d 7f 
     FB_TwoState 90 2d 7f  90 2d 00
 WidgetEnd 
 
 Widget LowerButton7 
-    Press 90 2e 7f  
+    AnyPress 90 2e 7f  
     FB_TwoState 90 2e 7f  90 2e 00
 WidgetEnd 
 
 Widget LowerButton8 
-    Press 90 2f 7f 
+    AnyPress 90 2f 7f 
     FB_TwoState 90 2f 7f  90 2f 00
 WidgetEnd 
  
@@ -409,38 +409,23 @@ Widget Fader8
 WidgetEnd
 
 Widget UserButton1 
-    Press 90 30 7f 
-    FB_TwoState 90 30 7f 90 30 00
-WidgetEnd
-
-Widget UserButton1_Off 
-    Press  90 30 00
+    AnyPress 90 30 7f 
     FB_TwoState 90 30 7f 90 30 00
 WidgetEnd
 
 Widget UserButton2 
-    Press 90 31 7f 
+    AnyPress 90 31 7f 
     FB_TwoState 90 31 7f 90 31 00
 WidgetEnd
 
-Widget UserButton3_On 
-    Press 90 32 7f 
-    FB_TwoState 90 32 7f 90 32 00
-WidgetEnd
-
-Widget UserButton3_Off 
-    Press 90 32 00
+Widget UserButton3 
+    AnyPress 90 32 7f 
     FB_TwoState 90 32 7f 90 32 00
 WidgetEnd
 
 
-Widget UserButton4_On 
-    Press 90 33 7f 
-    FB_TwoState 90 33 7f 90 33 00
-WidgetEnd
-
-Widget UserButton4_Off 
-    Press 90 33 00
+Widget UserButton4 
+    AnyPress 90 33 7f 
     FB_TwoState 90 33 7f 90 33 00
 WidgetEnd
 

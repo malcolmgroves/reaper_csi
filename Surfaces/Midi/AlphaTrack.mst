@@ -4,7 +4,7 @@ Widget Fader
 WidgetEnd 
 
 Widget FaderTouch 
-	Press 90 68 7f
+	Press 90 68 7f 90 68 00
 WidgetEnd 
 
 Widget FaderTouchOn 
@@ -15,26 +15,20 @@ Widget FaderTouchOff
 	Press 90 68 00
 WidgetEnd 
 
-// Button is actually labelled Rec, but I am using it as Alt Modifier
-// Widget Rec 
-Widget Alt 
-	Press 90 00 7f 
+Widget Rec 
+	Press 90 00 7f 90 00 00
 WidgetEnd 
 
-// Button is actually labelled Solo, but I am using it as Control Modifier
-// Widget Solo 
-Widget Control 
-	Press 90 08 7f 
+Widget Solo 
+	Press 90 08 7f 90 08 00
 WidgetEnd 
 
-// Button is actually labelled Mute, but I am using it as Option Modifier
-// Widget Mute 
-Widget Option 
-	Press 90 10 7f 
+Widget Mute 
+	Press 90 10 7f 90 10 00
 WidgetEnd 
 
 Widget Shift 
-	Press 90 46 7f 
+	Press 90 46 7f 90 46 00
 WidgetEnd 
 
 Widget Rotary1 
@@ -160,12 +154,10 @@ WidgetEnd
 
 Widget Left 
 	Press 90 57 7f
-	FB_TwoState 90 57 7f 90 57 00
 WidgetEnd 
 
 Widget Right 
 	Press 90 58 7f 
-	FB_TwoState 90 58 7f 90 58 00
 WidgetEnd 
 
 Widget Loop 

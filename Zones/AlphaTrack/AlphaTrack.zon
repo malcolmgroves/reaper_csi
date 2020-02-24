@@ -8,28 +8,29 @@ Zone "Home"
 	IncludedZonesEnd
 
 // Script: MalGEnsureMasterTrackVisible.lua    
-//    FaderTouchOn Reaper "_RSb0f4909aa462d8e495484d203f9d8c8ef7a3cdca"
+    FaderTouchOn Reaper "_RS21a5a5f53bdb3e6460523febf037b5037d692b30"
 // Script: MalGEnsureMasterTrackInvisible.lua    
-//    FaderTouchOff Reaper "_RScae2ddaef9be703bed3ad77ca18de9b1c97896c7"
+    FaderTouchOff Reaper "_RS0c947261e4b6809af6e5a36aebbd0e45e9bc76c5"
 
 // Custom Action : MalGMIDIJog.lua https://github.com/malcolmgroves/reaper_scripts
-    Scrub Reaper "_RSec387aa0139d26179af84721c800395d30392f5b"
-////    Scrub Reaper "_RS3f00f987a28e07b6441a6cd54a985e04cf3bd8f3"
+    Scrub Reaper "_RS5ba7e0344180c93f2b53050b2cb9d4089b587735"
 
     Left TrackBank "-16"
     Right TrackBank "+16"
-
-//    Flip ToggleLearnMode  
-
-//    DisplayUpper1 TimeDisplay 
+    Shift+Left TrackBank "-10000"
+    Shift+Right TrackBank "+10000"
+//    Hold+Left TrackBank "-10000"
+//    Hold+Right TrackBank "+10000"
+    Control+Left TrackBank "-1"
+    Control+Right TrackBank "+1"
 
 ZoneEnd
 
 Zone "Modifiers|"
     Shift Shift
-    Option Option
-    Control Control
-    Alt Alt
+    Solo Option
+    Mute Control
+    Rec Alt
 ZoneEnd
 
 Zone "MasterChannel|"
@@ -38,76 +39,67 @@ Zone "MasterChannel|"
 ZoneEnd
 
 Zone "TransportControls|"
-// 40084 Transport: Rewind a little bit    
-    Rewind Reaper "40084"
-// 40085 Transport: Fast forward a little bit    
-    FastForward Reaper "40085"
-// 41801 Regions: Go to previous region after current region finishes playing (smooth seek)
-    Shift+Rewind Reaper "41801"
-// 41802 Regions: Go to next region after current region finishes playing (smooth seek)    
-    Shift+FastForward Reaper "41802"
-
     Stop Stop
     Play Play
     Record Record
 // 1068 Transport: Toggle repeat    
     Toggle+Loop Reaper "1068"
-ZoneEnd
+
+// 41801 Regions: Go to previous region after current region finishes playing (smooth seek)
+    Rewind Reaper "41801"
+// 41802 Regions: Go to next region after current region finishes playing (smooth seek)    
+    FastForward Reaper "41802"
+// 40084 Transport: Rewind a little bit    
+    Shift+Rewind Reaper "40084"
+// 40085 Transport: Fast forward a little bit    
+    Shift+FastForward Reaper "40085"
+ ZoneEnd
 
 Zone "ZoneNavigation|"
     F1 GoZone Home
     F2 GoZone MIDIEditor
     F3 GoZone ItemEditor 
 // back to FXMenu     
-    F4 Reaper "_S&M_WNCLS4"
     F4 MapSelectedTrackFXToMenu
+    F4 Reaper "_S&M_WNCLS4"
 ZoneEnd
 
 Zone "TimeSelection|" 
-// 40320 Time selection: Nudge left edge left
-// 40321 Time selection: Nudge left edge right
-    RotaryDecrement1 Reaper "40320" 
-    RotaryIncrement1 Reaper "40321"
-    RotaryMediumDecrement1 Reaper "40320" 
-    RotaryMediumDecrement1 Reaper "40320" 
-    RotaryMediumIncrement1 Reaper "40321"
-    RotaryMediumIncrement1 Reaper "40321"
-    RotaryFastDecrement1 Reaper "40320" 
-    RotaryFastDecrement1 Reaper "40320" 
-    RotaryFastDecrement1 Reaper "40320" 
-    RotaryFastIncrement1 Reaper "40321"
-    RotaryFastIncrement1 Reaper "40321"
-    RotaryFastIncrement1 Reaper "40321"
-// 40039 Time selection: Nudge left
-// 40040 Time selection: Nudge right
-    RotaryDecrement2 Reaper "40039" 
-    RotaryIncrement2 Reaper "40040"
-// 40322 Time selection: Nudge right edge left
-// 40323 Time selection: Nudge right edge right
-    RotaryDecrement3 Reaper "40322" 
-    RotaryIncrement3 Reaper "40323"
-
-
-// SWS: Toggle horizontal zoom to selected items or time selection
 // SWS: Set time selection to selected items (skip if time selection exists)
+    RotaryPush2 Reaper "_SWS_SAFETIMESEL"
+// SWS: Toggle horizontal zoom to time selection
+    Shift+RotaryPush2 Reaper "_SWS_TOGZOOMHORIZ_TSEL"    
+// Script: MalG_MoveSelectionStartLeftOneBar.lua
+    RotaryDecrement1 Reaper "_RS4dff9219644f07e5c5f3019cf1d040a065188b9c" 
+// Script: MalG_MoveSelectionStartRightOneBar.lua
+    RotaryIncrement1 Reaper "_RS3435ca79f10d25edc1c36261259f7f7ac9fbc103"
+// Script: MalG_MoveSelectionStartLeftOneBeat.lua
+    Shift+RotaryDecrement1 Reaper "_RS86185baa74812b010a38604bae1b27dce08f3529" 
+// Script: MalG_MoveSelectionStartRightOneBeat.lua
+    Shift+RotaryIncrement1 Reaper "_RS4c48c8a865a2f2b9a617010c572cda424a5bfbcb"
+// Script: MalG_MoveSelectionEndLeftOneBar.lua
+    RotaryDecrement3 Reaper "_RSd943e4e0d889f938450264dcc2b14846db499ce1" 
+// Script: MalG_MoveSelectionEndRightOneBar.lua
+    RotaryIncrement3 Reaper "_RS3eb1d5ecf5801bba0a24628828b6b666380f36a9"
+// Script: MalG_MoveSelectionEndOneBeatLeft.lua
+    Shift+RotaryDecrement3 Reaper "_RSb9f4e0b74202508363b1e3df6efa54e6c8ac988b" 
+// Script: MalG_MoveSelectionEndOneBeatRight.lua
+    Shift+RotaryIncrement3 Reaper "_RS1e0d87c991e62f071ca5a1454faa7e5681a96112"
+
+// Script: MalG_MoveCursorToStartOfSelection.lua
+    RotaryPush1 Reaper "_RS3b5b36d848dd7b103105c59319e0ae0d442e6386"
+// Script: MalG_MoveCursorToEndOfSelection.lua
+    RotaryPush3 Reaper "_RS836ff64c05cb3f38cc3be00553f1e14abb05f659"
 ZoneEnd
 
 
 Zone "FXMenu|1-1"
 	SelectedTrackNavigator
-// this doesn't seem to map when in FXMenu
-//    Fader TrackVolume
 	Left Reaper "_S&M_SHOWFXCHAINSEL"
 	Left Reaper "_S&M_SELFXPREV"
 	Right Reaper "_S&M_SHOWFXCHAINSEL"
-	Right Reaper "_S&M_SELFXNEXT"
+	Right Reaper "_S&M_SELFXNEXT"    
+// this doesn't seem to map when in FXMenu
+//    Fader TrackVolume
 ZoneEnd
-
-//Zone "MIDIEditor"
-
-//ZoneEnd
-
-//Zone "ItemEditor"
-
-//ZoneEnd
 

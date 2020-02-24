@@ -2,30 +2,19 @@ Zone Home
 	OnFXFocus MapFocusedFXToWidgets
 	IncludedZones
 		"Channel|1-8"
-		"Modifiers|"
 	IncludedZonesEnd
 
-    UserButton3_On TrackBank "-16"
-    UserButton3_Off TrackBank "-16"
-    UserButton4_On TrackBank "+16"
-    UserButton4_Off TrackBank "+16"
-
-ZoneEnd
-
-Zone "Modifiers|"
-    Shift Shift
-    Option Option
-    Control Control
-    Alt Alt
+    UserButton3 TrackBank "-16"
+    UserButton4 TrackBank "+16"
 ZoneEnd
 
 Zone "Channel|1-8" 
 	TrackNavigator
 	RotaryG1| TrackPan "0"
 	UpperButton| TrackSelect
+	Option+UpperButton| TrackMute
 	Control+UpperButton| TrackSolo
 	Alt+UpperButton| TrackRecordArm
-	Option+UpperButton| TrackMute
 	Fader|  TrackVolume
 
 // FXMenu 
@@ -51,6 +40,12 @@ Zone "FXMenu|1-1"
 	UpperButton6 Reaper "_S&M_SHOWFXCHAIN6" 
 	UpperButton7 Reaper "_S&M_SHOWFXCHAIN7" 
 	UpperButton8 Reaper "_S&M_SHOWFXCHAIN8" 
+
+	UserButton3 Reaper "_S&M_SHOWFXCHAINSEL"
+	UserButton3 Reaper "_S&M_SELFXPREV"
+	UserButton4 Reaper "_S&M_SHOWFXCHAINSEL"
+	UserButton4 Reaper "_S&M_SELFXNEXT"
+
 	LowerButton1 NoAction 
 	LowerButton2 NoAction 
 	LowerButton3 NoAction 
@@ -67,23 +62,18 @@ Zone "FXMenu|1-1"
 	Fader6 NoAction 
 	Fader7 NoAction 
 	Fader8 NoAction 
-
-	UserButton1 Reaper "_S&M_SHOWFXCHAINSEL"
-	UserButton1 Reaper "_S&M_SELFXPREV"
-	UserButton2 Reaper "_S&M_SHOWFXCHAINSEL"
-	UserButton2 Reaper "_S&M_SELFXNEXT"
 ZoneEnd
 
-//Zone "MIDIEditor"
+Zone "MIDIEditor"
 
-//ZoneEnd
+ZoneEnd
 
 Zone "ItemEditor"
 // 41520 Item: Cycle through fade-in shapes
 	RotaryPushG11 Reaper "41520"
 // 41527 Item: Cycle through fade-out shapes	
 	RotaryPushG13 Reaper "41527"
-
-	RotaryG11 Reaper "_RSf4aab24cb02a030631b6a5335b137f49de38f50e"
+// Script: MalG_AdjustSelectedItemsFadeInLength.lua 
+	RotaryG11 Reaper "_RS194af33d65004617f180724e30e21d1ba555aec5"
 ZoneEnd
 

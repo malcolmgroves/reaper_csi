@@ -3,20 +3,22 @@ Zone Home
 	IncludedZones
 		"Channel|1-8"
 	IncludedZonesEnd
+    UserButton3 TrackBank "-16"
+    UserButton4 TrackBank "+16"
 ZoneEnd
 
 Zone "Channel|1-8" 
 	TrackNavigator
-	RotaryG1| TrackPan
-	Shift+UpperButton| TrackSelect
+	RotaryG1| TrackPan "0"
+	UpperButton| TrackSelect
+	Option+UpperButton| TrackMute
 	Control+UpperButton| TrackSolo
 	Alt+UpperButton| TrackRecordArm
-	Option+UpperButton| TrackMute
 	Fader|  TrackVolume
 
 // FXMenu 
-	UpperButton| TrackUniqueSelect
-	UpperButton| MapSelectedTrackFXToMenu
+	Shift+UpperButton| TrackUniqueSelect
+	Shift+UpperButton| MapSelectedTrackFXToMenu
 ZoneEnd
 
 Zone "FXMenu|1-1"
@@ -54,11 +56,11 @@ Zone "FXMenu|1-1"
 	Fader7 NoAction 
 	Fader8 NoAction 
 
-	UserButton1 Reaper "_S&M_SHOWFXCHAINSEL"
-	UserButton1 Reaper "_S&M_SELFXPREV"
 	UserButton3 Reaper "_S&M_SHOWFXCHAINSEL"
-	UserButton3 Reaper "_S&M_SELFXNEXT"
-
+	UserButton3 Reaper "_S&M_SELFXPREV"
+	UserButton4 Reaper "_S&M_SHOWFXCHAINSEL"
+	UserButton4 Reaper "_S&M_SELFXNEXT"
+ZoneEnd
 
 Zone "MIDIEditor"
 

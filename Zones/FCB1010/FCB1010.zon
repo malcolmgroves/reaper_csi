@@ -7,22 +7,31 @@ Zone Home
 ZoneEnd
 
 Zone "TransportControls|"
-    Switch06 Stop
-    Switch07 Play
-    Switch08 Record   
-// 1068 Transport: Toggle repeat    
-    Switch09 Reaper 1068
+    Switch06            Stop
+    Switch07            Play 
+// 1068 Transport: Toggle repeat     
+    Switch08            Reaper "1068"
+// Custom: Looper Rec Stop
+   Switch09             Reaper "_ae154b2773f6b447b9034621c9e8809d"   
+// Custom: Looper Rec Start
+   Switch10             Reaper "_e588682144e0e2498a0ff8c2ea918560"  
+// Take: Cycle items to previous take    
+    Switch03            Reaper "42350"
+// Take: Cycle items to next take    
+    Switch04            Reaper "42349"
+// Take: Delete active take from items    
+    Switch05            Reaper "40129"
 ZoneEnd
 
 Zone "MasterTrack|"
     MasterTrackNavigator
-    ExpressionPedal1 TrackVolume 
+    ExpressionPedal1    TrackVolume 
 ZoneEnd
 
 Zone "SelectedTrack|"
     SelectedTrackNavigator
-    ExpressionPedal2 TrackVolume 
-    Switch01 TrackRecordArm
+    ExpressionPedal2    TrackVolume 
+    Switch01            TrackRecordArm
 // 40318 Item navigation: Move cursor left to edge of item    
-    Switch02 Reaper "40318"
+    Switch02            Reaper "40318"
 ZoneEnd
